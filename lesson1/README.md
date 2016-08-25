@@ -7,7 +7,8 @@ la
 ```
 ![terminal](images/L1_terminal_0.png)
 
-### git
+### github & git
+![git](images/L1_github_0.png)
 ```bash
 git clone git@github.com:7devs/vol1_seven.git
 cd vol1_seven
