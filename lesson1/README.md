@@ -15,7 +15,8 @@ la
 
 ### github & git
 
-git 是现代版本控制工具，于传统是 svn 相比有更多更灵活的功能。
+git 是现代版本控制工具，与传统的 svn 相比有更多更灵活的功能。
+
 github 是基于 git 的免费（公开）项目仓库服务。
 
 ![git](images/L1_github_0.png)
