@@ -1,2 +1,2 @@
 // demo javascript
-console.log('hello world!');
+console.log('hello 世界.');
