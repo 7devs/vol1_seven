@@ -15,6 +15,14 @@ app.get('/', function(req, res, next) {
     next();
 });
 
+app.all('/test', function(req, res, next) {
+    console.log('xxxxx');
+    if(false){
+        next();
+    } else {
+        res.status(403).send({msg: '验证失败.'});
+    }
+})
 // POST /test
 app.post('/test', function(req, res, next) {
     res.status(200).send({
