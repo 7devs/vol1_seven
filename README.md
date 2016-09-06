@@ -3,6 +3,7 @@
 ## 一些参考文档在线资源
 
 - [JavaScript 教程](http://www.w3school.com.cn/js/index.asp)
+- [Node 入门](http://www.nodebeginner.org/index-zh-cn.html)
 - [JSON 文档](http://json.org/)
 - [Node.js 文档](https://nodejs.org/dist/latest-v6.x/docs/api/)
 - [Express 文档](http://expressjs.com/en/4x/api.html)
