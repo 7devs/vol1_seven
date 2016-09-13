@@ -41,12 +41,14 @@
         - http://127.0.0.1:3000/user/count/male
         - http://127.0.0.1:3000/user/count/famale
         - http://127.0.0.1:3000/user/ageAvg
-        - http://127.0.0.1:3000/user/search/geek
-        - http://127.0.0.1:3000/user/search/beijing
+        - http://127.0.0.1:3000/user/search?company=geek
+        - http://127.0.0.1:3000/user/search?company=beijing
         - http://127.0.0.1:3000/album
         - http://127.0.0.1:3000/album/4
         - http://127.0.0.1:3000/album/longerSong
         - http://127.0.0.1:3000/album/singer/郑钧
+        - http://127.0.0.1:3000/album/search?type=摇滚
+        - http://127.0.0.1:3000/album/search?type=民谣
     - 在 Postman 中测试 PUT 接口
         - （参考图1 和 图3）
 
