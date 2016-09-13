@@ -41,8 +41,8 @@
         - http://127.0.0.1:3000/user/count/male
         - http://127.0.0.1:3000/user/count/famale
         - http://127.0.0.1:3000/user/ageAvg
-        - http://127.0.0.1:3000/search/geek
-        - http://127.0.0.1:3000/search/beijing
+        - http://127.0.0.1:3000/user/search/geek
+        - http://127.0.0.1:3000/user/search/beijing
         - http://127.0.0.1:3000/album
         - http://127.0.0.1:3000/album/4
         - http://127.0.0.1:3000/album/longerSong
