@@ -45,7 +45,7 @@
         - http://127.0.0.1:3000/search/beijing
         - http://127.0.0.1:3000/album
         - http://127.0.0.1:3000/album/4
-        - http://127.0.0.1:3000/album/lognerSong
+        - http://127.0.0.1:3000/album/longerSong
         - http://127.0.0.1:3000/album/singer/郑钧
     - 在 Postman 中测试 PUT 接口
         - （参考图1 和 图3）
