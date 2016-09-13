@@ -15,7 +15,7 @@
         - `GET`      `/`                       返回全部用户
         - `GET`      `/:id`                    获取指定索引用户的全名（firstName + lastName）
             - 若用户不存在，返回状态码为 404 的 Not Found 信息
-        - `PUT`      `/:id`                    修改指定索引用户的年龄（key 为 age，参考图1）
+        - `PUT`      `/:id`                    修改指定索引用户的年龄并返回结果（key 为 age，参考图1）
             - 若给定的年龄不是数值型，返回错误信息；
             - 若用户不存在，返回状态码为 404 的 Not Found 信息
         - `GET`      `/count/:sex`             获取指定性别的人数统计（例: /user/count/male 返回 10）
@@ -26,7 +26,7 @@
         - `GET`      `/`                       返回全部唱片
         - `GET`      `/:id`                    返回指定索引的唱片数据
             - 若唱片不存在，返回状态码为 404 的 Not Found 信息
-        - `PUT`      `/:id`                    修改指定索引唱片的时长和标题（key 为 length 和 title，参考图3）
+        - `PUT`      `/:id`                    修改指定索引唱片的时长和标题并返回结果（key 为 length 和 title，参考图3）
             - 若唱片不存在，返回状态码为 404 的 Not Found 信息
         - `GET`      `/longerSong`             返回歌曲时间大于3分钟的歌曲
         - `GET`      `/singer/:name`           返回指定歌手的全部歌曲
