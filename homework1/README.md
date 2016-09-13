@@ -31,7 +31,7 @@
         - `GET`      `/longerSong`             返回歌曲时间大于3分钟的歌曲
         - `GET`      `/singer/:name`           返回指定歌手的全部歌曲
             - 若唱片不存在，返回状态码为 404 的 Not Found 信息
-        - `GET`      `/search?class=xxx`       获取指定分类下的歌曲列表（参考图4)
+        - `GET`      `/search?type=xxx`        获取指定分类下的歌曲列表（参考图4)
             - 若分类不存在，返回状态码为 404 的 Not Found 信息
 1. 测试
     - 在浏览器中访问所有路由表中 GET 方法的地址
