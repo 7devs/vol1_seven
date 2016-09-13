@@ -42,7 +42,11 @@
     - 在 Postman 中测试 PUT 接口
         - （参考图1 和 图3）
 
+_图1_
 ![图1](images/user-put.png)
+_图2_
 ![图2](images/album-put.png)
+_图3_
 ![图3](images/user-search.png)
+_图4_
 ![图4](images/album-search.png)
