@@ -18,7 +18,7 @@
         - `PUT`      `/:id`                    修改指定索引用户的年龄（key 为 age，参考图1）
             - 若给定的年龄不是数值型，返回错误信息；
             - 若用户不存在，返回状态码为 404 的 Not Found 信息
-        - `GET`      `/:sex`                   获取指定性别的人数统计（例: /user/male 返回 10）
+        - `GET`      `/count/:sex`             获取指定性别的人数统计（例: /user/count/male 返回 10）
         - `GET`      `/ageAvg`                 返回所有用户年龄平均值
         - `GET`      `/search?company=xxx`     搜索，返回公司名称包含搜索字符串的用户列表（忽略大小写，参考图2）
             - 若未找到任何用户，返回状态码为 404 的 Not Found 信息
@@ -38,8 +38,8 @@
     - 例如：
         - http://127.0.0.1:3000/user
         - http://127.0.0.1:3000/user/3
-        - http://127.0.0.1:3000/user/male
-        - http://127.0.0.1:3000/user/famale
+        - http://127.0.0.1:3000/user/count/male
+        - http://127.0.0.1:3000/user/count/famale
         - http://127.0.0.1:3000/user/ageAvg
         - http://127.0.0.1:3000/search/geek
         - http://127.0.0.1:3000/search/beijing
