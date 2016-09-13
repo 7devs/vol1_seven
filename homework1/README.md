@@ -13,18 +13,18 @@
 1. 业务逻辑（路由）
     1. 用户 `/user`
         1. `GET`      `/`                       返回全部用户
-        1. `GET`      `/:id`                    获取指定索引用户的全名（firstName + lastName)
-        1. `PUT`      `/:id`                    修改指定索引用户的年龄（key 为 age，参考图1）
+        1. `GET`      `/:id`                    获取指定索引用户的全名（firstName + lastName），若用户不存在，返回状态码为 404 的 Not Found 信息
+        1. `PUT`      `/:id`                    修改指定索引用户的年龄（key 为 age，参考图1），若给定的年龄不是数值型，返回错误信息；若用户不存在，返回状态码为 404 的 Not Found 信息
         1. `GET`      `/:sex`                   获取指定性别的人数统计（例: /user/male 返回 10）
         1. `GET`      `/ageAvg`                 返回所有用户年龄平均值
-        1. `GET`      `/search?company=xxx`     搜索，返回公司名称包含搜索字符串的用户列表（忽略大小写，参考图2）
+        1. `GET`      `/search?company=xxx`     搜索，返回公司名称包含搜索字符串的用户列表（忽略大小写，参考图2），若未找到任何用户，返回状态码为 404 的 Not Found 信息
     1. 唱片 `/album`
         1. `GET`      `/`                       返回全部唱片
-        1. `GET`      `/:id`                    返回指定索引的唱片数据
-        1. `PUT`      `/:id`                    修改指定索引唱片的时长和标题（key 为 length 和 title，参考图3）
+        1. `GET`      `/:id`                    返回指定索引的唱片数据，若唱片不存在，返回状态码为 404 的 Not Found 信息
+        1. `PUT`      `/:id`                    修改指定索引唱片的时长和标题（key 为 length 和 title，参考图3），若唱片不存在，返回状态码为 404 的 Not Found 信息
         1. `GET`      `/longerSong`             返回歌曲时间大于3分钟的歌曲
-        1. `GET`      `/singer/:name`           返回指定歌手的全部歌曲
-        1. `GET`      `/search?class=xxx`       获取指定分类下的歌曲列表（参考图4)
+        1. `GET`      `/singer/:name`           返回指定歌手的全部歌曲，若唱片不存在，返回状态码为 404 的 Not Found 信息
+        1. `GET`      `/search?class=xxx`       获取指定分类下的歌曲列表（参考图4)，若分类不存在，返回状态码为 404 的 Not Found 信息
 1. 测试
     - 在浏览器中访问所有路由表中 GET 方法的地址
     - 例如：
