@@ -53,8 +53,8 @@
 _图1_
 ![图1](images/user-put.png)
 _图2_
-![图2](images/album-put.png)
+![图2](images/user-search.png)
 _图3_
-![图3](images/user-search.png)
+![图3](images/album-put.png)
 _图4_
 ![图4](images/album-search.png)
