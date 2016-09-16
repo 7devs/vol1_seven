@@ -330,6 +330,7 @@ describe('Album', function(){
 
   it('/album/4 PUT should return new album with title: 北方的北方, length: 123', function(done){
       api.put('/album/4')
+      .set('Accept', 'application/x-www-form-urlencoded')
       .type('form')
       .send({
           title: '北方的北方',
@@ -338,7 +339,7 @@ describe('Album', function(){
       .expect(200)
       .end(function(err, res){
           expect(res.body['title']).to.equal('北方的北方');
-          expect(res.body['length']).to.equal('123');
+          expect(res.body['length']).to.equal(123);
           done();
       })
   })

@@ -41,7 +41,7 @@ router.route('/:key')
           var new_title = req.body['title'];
           var new_length = req.body['length'];
           song.title = new_title;
-          song.length = new_length;
+          song.length = parseInt(new_length);
           res.status(200).send(song);
         } else {
             res.status(404).send('The song is not found.')
