@@ -344,6 +344,17 @@ describe('Album', function(){
       })
   })
 
+  it('/album/4 PUT without title & length should return 403 Forbidden', function(done){
+      api.put('/album/4')
+      // .set('Accept', 'application/x-www-form-urlencoded')
+      // .type('form')
+      // .send({
+      //     title: '北方的北方',
+      //     length: 123
+      // })
+      .expect(403, done)
+  })
+
   it('/album/20 PUT should return 404 Not Found', function(done){
       api.put('/album/20')
       .expect(404, done)
