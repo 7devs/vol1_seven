@@ -35,14 +35,15 @@ router.route('/:key')
     .put(function(req, res, next) {
         var song = songs[req.params.key-1];
         if(song) {
-          var length = song.length;
-          var title = song.title;
-          // var new_title = title + '(cover)';
           var new_title = req.body['title'];
           var new_length = req.body['length'];
-          song.title = new_title;
-          song.length = parseInt(new_length);
-          res.status(200).send(song);
+          if(new_title && new_length) {
+              song.title = new_title;
+              song.length = parseInt(new_length);
+              res.status(200).send(song);
+          } else {
+              res.status(403).send('Title and length required.')
+          }
         } else {
             res.status(404).send('The song is not found.')
         }
