@@ -344,7 +344,7 @@ describe('Album', function(){
       })
   })
 
-  it('/album/4 PUT without title & length should return 403 Forbidden', function(done){
+  it.skip('/album/4 PUT without title & length should return 403 Forbidden', function(done){
       api.put('/album/4')
       // .set('Accept', 'application/x-www-form-urlencoded')
       // .type('form')
