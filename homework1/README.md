@@ -59,7 +59,7 @@
         - http://127.0.0.1:3000/user
         - http://127.0.0.1:3000/user/3
         - http://127.0.0.1:3000/user/count/male
-        - http://127.0.0.1:3000/user/count/famale
+        - http://127.0.0.1:3000/user/count/female
         - http://127.0.0.1:3000/user/ageAvg
         - http://127.0.0.1:3000/user/search?company=geek
         - http://127.0.0.1:3000/user/search?company=beijing
