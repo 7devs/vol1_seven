@@ -21,7 +21,7 @@ router.route('/')
         }));
     })
     .get(function(req, res, next) {
-        res.status(200).send('7777');
+        res.status(200).send(req.query.echostr);
     });
 
 module.exports = router;
