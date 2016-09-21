@@ -1,0 +1,23 @@
+{
+  "name": "wxtest",
+  "version": "1.0.0",
+  "description": "wechat test demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Seven Yu",
+  "license": "ISC",
+  "keywords": [
+    "wechat",
+    "yokeneng",
+    "demo"
+  ],
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-xml-bodyparser": "^0.3.0",
+    "request": "^2.75.0",
+    "xml": "^1.0.1"
+  }
+}
