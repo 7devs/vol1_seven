@@ -21,7 +21,7 @@ router.route('/')
         }));
     })
     .get(function(req, res, next) {
-        $.result(res, {msg: 'OK'});
+        res.status(200).send('7777');
     });
 
 module.exports = router;
