@@ -21,6 +21,7 @@ router.route('/')
         }));
     })
     .get(function(req, res, next) {
+        console.log(req.query);
         res.status(200).send(req.query.echostr);
     });
 
