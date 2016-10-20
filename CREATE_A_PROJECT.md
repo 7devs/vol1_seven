@@ -7,10 +7,10 @@
 - **初始化项目**
     - `npm init`
 - **安装需要的 npm 包**
-    - express
+    - [express](http://expressjs.com/)
     - body-parser
-    - ejs _（模版引擎）_
-    - mongoose _（数据库支持）_
+    - [ejs](https://github.com/tj/ejs) _（模版引擎）_
+    - [mongoose](https://github.com/Automattic/mongoose) _（数据库支持）_
     - xml _（微信消息解析）_
     - express-xml-bodyparser _（微信消息解析）_
 - **创建项目文件及结构**
