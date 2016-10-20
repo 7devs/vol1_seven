@@ -1,5 +1,8 @@
 # vol 1 @Seven
 
+## 项目创建指引
+    - [CREATE_A_PROJECT](CREATE_A_PROJECT.md)
+
 ## 一些参考文档在线资源
 
 - [JavaScript 教程](http://www.w3school.com.cn/js/index.asp)
