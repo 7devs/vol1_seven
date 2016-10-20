@@ -34,6 +34,8 @@
         - wechat.js _（微信API封装，copy 之前项目中的文件）_
     - package.json _（npm init 自动创建）_
     - index.js _（入口文件）_
+- **第一次 clone 初始化过的项目后**
+    - `npm install`
 - **工作（代码维护）流程**
     1. `git pull` _（每天开始工作第一步，拉取最新代码）_
     1. 编辑代码
