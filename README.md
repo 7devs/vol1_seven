@@ -1,7 +1,8 @@
 # vol 1 @Seven
 
 ## 项目创建指引
-    - [CREATE_A_PROJECT](CREATE_A_PROJECT.md)
+
+- [CREATE_A_PROJECT](CREATE_A_PROJECT.md)
 
 ## 一些参考文档在线资源
 
