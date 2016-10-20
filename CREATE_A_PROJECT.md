@@ -7,6 +7,7 @@
 - **初始化项目**
     - `npm init`
 - **安装需要的 npm 包**
+    - `npm install <package name> --save`
     - [express](http://expressjs.com/)
     - body-parser
     - [ejs](https://github.com/tj/ejs) _（模版引擎）_
