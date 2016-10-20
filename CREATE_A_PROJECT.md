@@ -16,6 +16,7 @@
     - express-xml-bodyparser _（微信消息解析）_
 - **创建项目文件及结构**
     - lib
+        - static/ _（静态文件）_
         - parsers/ _（微信消息解析）_
             - text-parser.js
             - voice-parser.js
